@@ -1,19 +1,28 @@
-# Find Program
+# Point Class Operator Overloading
 
 ## Overview
 
-Welcome to the Find Program! This C++ program is designed to search for a character or string within another string. The program provides a user-friendly interface for inputting a sentence and the desired character or string to find, then displays the results.
+Welcome to the Point Class Operator Overloading program! This C++ project enhances a Point class by implementing operator overloading. The class provides functionality for various operations, including calculating the distance between two points, input/output, equality checks, inequality checks, midpoint calculation, and indexing to access x or y coordinates.
 
 ## Features
 
-- **Character Search:**
-  - Displays the position(s) of a character in the sentence.
+- **Distance Calculation:**
+  - Calculates the distance between two 2D points using the overloaded subtraction operator.
 
-- **String Search:**
-  - Indicates whether the specified string is present in the sentence and displays its position.
+- **Input/Output:**
+  - Supports user-friendly input and output of 2D point coordinates.
 
-- **Multiple Occurrences:**
-  - For character searches, the program can display multiple locations if the character appears more than once.
+- **Equality Check:**
+  - Overloaded equality operator (`==`) checks if two points are equal.
+
+- **Inequality Check:**
+  - Overloaded inequality operator (`!=`) checks if two points are not equal.
+
+- **Midpoint Calculation:**
+  - Calculates the midpoint between two points using the overloaded division operator.
+
+- **Coordinate Indexing:**
+  - Allows indexing to access the x or y coordinates of a point.
 
 ## Test Runs
 
